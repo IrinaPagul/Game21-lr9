@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('pexels-ken123films-1796794.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+
+}
+.box {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgba(229, 196, 171, 0.17);
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    top: 10%;
+}
+.cardU,.cardC{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 30%;
+    left: 5%;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    
+}
+.cardC{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    left:65%;
+}
+.cardU img,.cardC img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+
+}
+#generate{
+    position: absolute;
+    background-color: rgba(217, 192, 115, 0.6);
+    height:4.8vh;
+    width:30%;
+    top:20%;
+    left:35%;
+    font-size:100%;
+    border-radius: 5px;
+}
+#userName,#Computer{
+    position: absolute;
+    left:5%;
+    top:8%;
+    height: 4.5vh;
+    width: 29%;
+    font-size: 130%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+}
+#Computer{
+    left:66%;
+}
+#round,#score{
+    position: absolute;
+    color:white;
+    top:5%;
+    left:47%;
+}
+#score{
+    top:70%;
+    left:42%;
+
+}
+#scoreU, #scoreC{
+    position: absolute;
+    left:9.5%;
+    top:75%;
+    height: 4.5vh;
+    width: 27%;
+    font-size: 130%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+
+}
+#scoreC{
+    position: absolute;
+    left:63.7%;
+
+}
